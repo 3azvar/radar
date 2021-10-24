@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:background="#36268F">
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/stt"
+        android:layout_alignRight="@+id/stt"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="30dp"
+        android:text="speech"
+        android:textColor="#0c7d9a" />
+
+    <Button
+android:visibility="gone"
+        android:id="@+id/stt"
+        android:background="#34c7ca"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:text="........."
+        tools:ignore="HardcodedText"
+        android:layout_marginTop="42dp"
+        android:layout_below="@+id/txt"
+        android:layout_centerHorizontal="true" />
+
+
+
+
+
+
+
+
+
+
+    <ImageView
+        android:layout_marginTop="17dp"
+        android:layout_marginBottom="30dp"
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/robot" />
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/toggleButton1"
+        android:layout_marginTop="28dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/progressBar1"
+        android:layout_centerHorizontal="true"
+      />
+
+    <ToggleButton
+        android:textColor="#ffff"
+        android:background="#FF9800"
+        android:id="@+id/toggleButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:text="ToggleButton" />
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
